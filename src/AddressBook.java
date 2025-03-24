@@ -8,7 +8,6 @@ public class AddressBook {
         contacts.add(contact);
     }
 
-
     public void displayContacts() {
         if (contacts.isEmpty()) {
             System.out.println("연락처가 비어있습니다.");
